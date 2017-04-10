@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="activity_driver_wins" type="id" />
+    <item name="activity_driver_poles" type="id" />
+    <item name="activity_team_wins" type="id" />
+    <item name="activity_team_poles" type="id" />
+    <item name="activity_tracks" type="id" />
+    <item name="activity_all_time_wins" type="id" />
+    <item name="activity_all_time_poles" type="id" />
+    <item name="activity_statistics" type="id" />
+</resources>
