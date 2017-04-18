@@ -9,18 +9,19 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button button2 = (Button) findViewById(R.id.button2);
-    Button button3 = (Button) findViewById(R.id.button3);
-    Button button4 = (Button) findViewById(R.id.button4);
-    Button button5 = (Button) findViewById(R.id.button5);
-    Button button6 = (Button) findViewById(R.id.button6);
-    Button button7 = (Button) findViewById(R.id.button7);
-    Button button8 = (Button) findViewById(R.id.button8);
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Button button2 = (Button) findViewById(R.id.button2);
+        Button button3 = (Button) findViewById(R.id.button3);
+        Button button4 = (Button) findViewById(R.id.button4);
+        Button button5 = (Button) findViewById(R.id.button5);
+        Button button6 = (Button) findViewById(R.id.button6);
+        Button button7 = (Button) findViewById(R.id.button7);
+        Button button8 = (Button) findViewById(R.id.button8);
 
         Button button1 = (Button) findViewById(R.id.button);
         button1.setOnClickListener(new View.OnClickListener() {
@@ -29,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 DriverWins();
             }
         });
-       /* button2.setOnClickListener(new View.OnClickListener() {
+       button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 TeamWins();
@@ -70,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Statistics();
             }
-        });*/
+        });
     }
 
 
