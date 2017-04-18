@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.example.rahovec.f1project.Tracks">
 
+    <TextView
+        android:id="@+id/tracksView"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
 </android.support.constraint.ConstraintLayout>
+
