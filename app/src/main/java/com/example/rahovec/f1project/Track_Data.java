@@ -9,9 +9,9 @@ public class Track_Data {
     private String name,city,country;
 
     public Track_Data(String name, String city, String country) {
-        this.name = name;
-        this.city = city;
-        this.country = country;
+        this.setName(name);
+        this.setCity(city);
+        this.setCountry(country);
     }
 
     public String getName() {

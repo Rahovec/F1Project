@@ -119,6 +119,7 @@ public class MainActivity extends AppCompatActivity {
         if(json_string == null){
             Toast.makeText(this, "no json :(", Toast.LENGTH_SHORT).show();
         }else{
+            Toast.makeText(this, json_string, Toast.LENGTH_LONG).show();
             Intent intent = new Intent(this, Tracks.class);
             intent.putExtra("json_data",json_string);
             startActivity(intent);
